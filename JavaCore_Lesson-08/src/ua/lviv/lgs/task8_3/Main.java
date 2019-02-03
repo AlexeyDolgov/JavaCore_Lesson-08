@@ -11,24 +11,24 @@ public class Main {
 		int a;
 		int b;
 
-		System.out.println("Введите первое целое число:");
+		System.out.println("Р’РІРµРґРёС‚Рµ РїРµСЂРІРѕРµ С†РµР»РѕРµ С‡РёСЃР»Рѕ:");
 
 		if (scanner.hasNextInt()) {
 			a = scanner.nextInt();
 
-			System.out.println("Введите второе целое число:");
+			System.out.println("Р’РІРµРґРёС‚Рµ РІС‚РѕСЂРѕРµ С†РµР»РѕРµ С‡РёСЃР»Рѕ:");
 
 			if (scanner.hasNextInt()) {
 				b = scanner.nextInt();
-				System.out.println("Сумма введенных чисел равна " + (a + b));
+				System.out.println("РЎСѓРјРјР° РІРІРµРґРµРЅРЅС‹С… С‡РёСЃРµР» СЂР°РІРЅР° " + (a + b));
 			}
 
 			else
-				System.out.println("Ошибка! Необходимо было ввести ЦЕЛОЕ число");
+				System.out.println("РћС€РёР±РєР°! РќРµРѕР±С…РѕРґРёРјРѕ Р±С‹Р»Рѕ РІРІРµСЃС‚Рё Р¦Р•Р›РћР• С‡РёСЃР»Рѕ");
 		}
 
 		else
-			System.out.println("Ошибка! Необходимо было ввести ЦЕЛОЕ число");
+			System.out.println("РћС€РёР±РєР°! РќРµРѕР±С…РѕРґРёРјРѕ Р±С‹Р»Рѕ РІРІРµСЃС‚Рё Р¦Р•Р›РћР• С‡РёСЃР»Рѕ");
 
 	}
 }

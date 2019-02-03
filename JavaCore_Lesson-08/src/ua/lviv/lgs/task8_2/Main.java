@@ -8,15 +8,15 @@ public class Main {
 
 		Scanner scanner = new Scanner(System.in);
 
-		System.out.println("Введите целое число:");
+		System.out.println("Р’РІРµРґРёС‚Рµ С†РµР»РѕРµ С‡РёСЃР»Рѕ:");
 
 		if (scanner.hasNextInt()) {
 			if (scanner.nextInt() % 2 == 0) {
-				System.out.println("Число является четным");
+				System.out.println("Р§РёСЃР»Рѕ СЏРІР»СЏРµС‚СЃСЏ С‡РµС‚РЅС‹Рј");
 			} else
-				System.out.println("Число является нечетным");
+				System.out.println("Р§РёСЃР»Рѕ СЏРІР»СЏРµС‚СЃСЏ РЅРµС‡РµС‚РЅС‹Рј");
 		} else {
-			System.out.println("Необходимо ввести ЦЕЛОЕ число!");
+			System.out.println("РќРµРѕР±С…РѕРґРёРјРѕ РІРІРµСЃС‚Рё Р¦Р•Р›РћР• С‡РёСЃР»Рѕ!");
 		}
 	}
 }
